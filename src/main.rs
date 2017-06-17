@@ -13,7 +13,7 @@ fn main() {
 
     let parsed = json::parse(&json_body).unwrap();
 
-    // members() is used to iterate over an array
+    // members() is used to iterate over a json array
     for item in parsed.members() {
         // need to first extract the string from the json value
         // then parse the string to float
