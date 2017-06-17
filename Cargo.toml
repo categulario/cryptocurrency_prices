@@ -1,0 +1,6 @@
+[package]
+name = "query_json_api"
+version = "0.1.0"
+authors = ["Abraham Toriz Cruz <a.wonderful.code@gmail.com>"]
+
+[dependencies]
